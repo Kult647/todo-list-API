@@ -29,44 +29,44 @@ API для персонального задачника (todo-list) с ауте
 
 1. Клонируйте репозиторий:
    ```bash
-git clone https://github.com/your-repo/todo-api.git
-cd todo-api
+    git clone https://github.com/your-repo/todo-api.git
+    cd todo-api
    ```
 
 2. Установите зависимости:
    ```bash
-composer install
+    composer install
    ```
 
 3. Настройте окружение:
    ```bash
-cp .env.example .env
-php artisan key:generate
+    cp .env.example .env
+    php artisan key:generate
    ```
 
 4. Настройте подключение к БД в файле .env:
    ```bash
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=todo_api
-DB_USERNAME=root
-DB_PASSWORD=
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=todo_api
+    DB_USERNAME=root
+    DB_PASSWORD=
    ```
 
 5. Запустите миграции и сидеры:
    ```bash
-php artisan migrate --seed
+    php artisan migrate --seed
    ```
 
 6. Запустите сервер разработки:
    ```bash
-php artisan serve
+    php artisan serve
    ```
 
 7. Запустите модульные тесты:
    ```bash
-php artisan test
+    php artisan test
    ```
 
 ### Настройка для Open Server
